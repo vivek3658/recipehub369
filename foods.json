@@ -1,0 +1,143 @@
+[
+    {
+      "id": 1,
+      "name": "Paneer Butter Masala",
+      "image": "images/paneer_butter_masala.jpg",
+      "recipe": "Cook paneer with butter, tomato puree, and spices.",
+      "ingredients": ["Paneer", "Butter", "Tomato", "Cream", "Spices"]
+    },
+    {
+      "id": 2,
+      "name": "Chole Bhature",
+      "image": "images/chole_bhature.jpg",
+      "recipe": "Boil chickpeas and cook with onion-tomato masala. Serve with fried bhature.",
+      "ingredients": ["Chickpeas", "Onion", "Tomato", "Flour", "Spices"]
+    },
+    {
+      "id": 3,
+      "name": "Biryani",
+      "image": "images/biryani.jpg",
+      "recipe": "Layer rice and cooked chicken with spices. Cook on low flame.",
+      "ingredients": ["Rice", "Chicken", "Yogurt", "Onions", "Spices"]
+    },
+    {
+      "id": 4,
+      "name": "Dosa",
+      "image": "images/dosa.jpg",
+      "recipe": "Spread fermented batter on tawa and roast with oil. Serve with chutney.",
+      "ingredients": ["Rice", "Urad dal", "Oil", "Salt"]
+    },
+    {
+      "id": 5,
+      "name": "Rajma Chawal",
+      "image": "images/rajma_chawal.jpg",
+      "recipe": "Cook kidney beans with spices. Serve with rice.",
+      "ingredients": ["Kidney Beans", "Tomato", "Onion", "Rice", "Spices"]
+    },
+    {
+      "id": 6,
+      "name": "Pav Bhaji",
+      "image": "images/pav_bhaji.jpg",
+      "recipe": "Mash boiled vegetables and cook with butter and spices. Serve with pav.",
+      "ingredients": ["Potato", "Tomato", "Peas", "Pav", "Butter"]
+    },
+    {
+      "id": 7,
+      "name": "Samosa",
+      "image": "images/samosa.jpg",
+      "recipe": "Fill pastry with potato filling and deep fry.",
+      "ingredients": ["Potato", "Flour", "Spices", "Oil"]
+    },
+    {
+      "id": 8,
+      "name": "Idli",
+      "image": "images/idli.jpg",
+      "recipe": "Steam fermented rice-urad dal batter.",
+      "ingredients": ["Rice", "Urad dal", "Salt"]
+    },
+    {
+      "id": 9,
+      "name": "Aloo Paratha",
+      "image": "images/aloo_paratha.jpg",
+      "recipe": "Stuff wheat dough with mashed potatoes and roast on tawa.",
+      "ingredients": ["Wheat Flour", "Potato", "Spices", "Ghee"]
+    },
+    {
+      "id": 10,
+      "name": "Butter Chicken",
+      "image": "images/butter_chicken.jpg",
+      "recipe": "Cook marinated chicken in buttery tomato gravy.",
+      "ingredients": ["Chicken", "Butter", "Tomato", "Cream", "Spices"]
+    },
+    {
+      "id": 11,
+      "name": "Kadai Paneer",
+      "image": "images/kadai_paneer.jpg",
+      "recipe": "Cook paneer with capsicum and spices in a kadai.",
+      "ingredients": ["Paneer", "Capsicum", "Tomato", "Spices"]
+    },
+    {
+      "id": 12,
+      "name": "Dal Tadka",
+      "image": "images/dal_tadka.jpg",
+      "recipe": "Cook dal and temper with ghee, garlic, and spices.",
+      "ingredients": ["Toor Dal", "Garlic", "Ghee", "Spices"]
+    },
+    {
+      "id": 13,
+      "name": "Pani Puri",
+      "image": "images/pani_puri.jpg",
+      "recipe": "Stuff puris with potatoes and serve with spicy water.",
+      "ingredients": ["Puris", "Potato", "Tamarind", "Mint", "Spices"]
+    },
+    {
+      "id": 14,
+      "name": "Masala Dosa",
+      "image": "images/masala_dosa.jpg",
+      "recipe": "Dosa filled with spicy mashed potatoes.",
+      "ingredients": ["Rice", "Urad dal", "Potato", "Spices"]
+    },
+    {
+      "id": 15,
+      "name": "Vegetable Pulao",
+      "image": "images/vegetable_pulao.jpg",
+      "recipe": "Cook rice with mixed vegetables and spices.",
+      "ingredients": ["Rice", "Vegetables", "Spices"]
+    },
+    {
+      "id": 16,
+      "name": "Chicken Curry",
+      "image": "images/chicken_curry.jpg",
+      "recipe": "Cook chicken with onion-tomato gravy and spices.",
+      "ingredients": ["Chicken", "Onion", "Tomato", "Spices"]
+    },
+    {
+      "id": 17,
+      "name": "Matar Paneer",
+      "image": "images/matar_paneer.jpg",
+      "recipe": "Cook peas and paneer in tomato gravy.",
+      "ingredients": ["Paneer", "Green Peas", "Tomato", "Spices"]
+    },
+    {
+      "id": 18,
+      "name": "Upma",
+      "image": "images/upma.jpg",
+      "recipe": "Roast suji and cook with veggies and spices.",
+      "ingredients": ["Suji", "Vegetables", "Spices"]
+    },
+    {
+      "id": 19,
+      "name": "Poha",
+      "image": "images/poha.jpg",
+      "recipe": "Cook flattened rice with mustard seeds, turmeric, and peanuts.",
+      "ingredients": ["Poha", "Mustard Seeds", "Onion", "Peanuts", "Turmeric"]
+    },
+    {
+      "id": 20,
+      "name": "Gulab Jamun",
+      "image": "images/gulab_jamun.jpg",
+      "recipe": "Fry dough balls and soak in sugar syrup.",
+      "ingredients": ["Khoya", "Flour", "Sugar Syrup", "Cardamom"]
+    }
+  ]
+  

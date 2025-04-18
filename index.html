@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>RecipeHub - Home</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+             <img src="images/favicon.png" alt="">
+             <h1>RecipeHub</h1>
+            </div>
+             <ul id="ul1">
+                 <li><a href="index.html">Home</a></li>
+                 <li id="catagory" onclick="touch()"><button id="cat">Catagory ▾</button><ul id="ul2">
+                     <li id="cat1"><a href="#vegan">Vegan</a></li>
+                     <li id="cat2"><a href="#nonvegan">Non-Vegan</a></li>
+                     <li id="cat3"><a href="#indian">Indian</a></li>
+                 </ul></li>
+                 <li><a href="about.html">About Us</a></li>
+                 <li><a href="contact.html">Contact Us</a></li>
+             </ul>
+             <button id="toggle">☰</button>
+         </nav>
+    </header>
+       
+        <section id="banner">
+            <img src="images/dosa.jpg" alt="" id="bannerimage">
+            <h1 id="banner_name">Dosa</h1>
+            <p id="banner_recipe">delicious</p>
+            <button id="btn" onclick="fetchInfo('Dosa')">view recipe</button></div>
+        </section>
+  <div id="data">
+        <div id="head">
+            <h1>Enter Recipe You Want To Search</h1>
+        </div>
+        <div id="search">
+            <input type="text" id="searchbar" placeholder="enter dish name">
+            <button id="searchbtn">Search</button>
+            <div id="output"></div>
+        </div>
+    </div>
+    <section id="comment">
+        <input type="text" id="commentbar" placeholder="Type your comment here.....">
+        <button id="cmt-btn">Post Comment</button>
+    </section>
+    <section id="part1">
+        <div id="p1_t">
+            <h1>Crafting Delight in Every Dish</h1>
+            <p>"With years of culinary experience and a heart full of passion, our chef brings you authentic recipes made with love, care, and the finest ingredients. Whether it’s a comforting home-style meal or a modern twist on tradition, each bite tells a story."</p>
+        </div>
+        <div id="img1">
+            <img src="images/part1.jpg" alt="">
+        </div>
+    </section>
+    <label for="" class="card-name">Vegan</label>
+    <section class="cards" id="vegan">
+        <div class="card" id="card1" onclick="fetchInfo('Dal Tadka')">
+        </div>
+        <div class="card" id="card2" onclick="fetchInfo('Paneer Butter Masala')"></div>
+        <div class="card"  id="card3" onclick="fetchInfo('Pani Puri')"></div>
+        <div class="card" id="card4" onclick="fetchInfo('Poha')"></div>
+        <div class="card" id="card5" onclick="fetchInfo('Idli')"></div>
+    </section>
+    <label for="" class="card-name">Non-Vegan</label>
+    <section class="cards" id="nonvegan">
+        <div class="card" id="card6" onclick="fetchInfo('Biryani')"></div>
+        <div class="card" id="card7" onclick="fetchInfo('Butter Chicken')"></div>
+        <div class="card" id="card8" onclick="fetchInfo('Chicken Curry')"></div>
+        <div class="card" id="card9" onclick="fetchInfo('Biryani')"></div>
+        <div class="card" id="card10" onclick="fetchInfo('Butter Chicken')"></div>
+    </section>
+    <label for="" class="card-name">Indian</label>
+    <section class="cards" id="indian">
+        <div class="card" id="card11" onclick="fetchInfo('Samosa')"></div>
+        <div class="card" id="card12" onclick="fetchInfo('Dosa')"></div>
+        <div class="card" id="card13" onclick="fetchInfo('Pav Bhaji')"></div>
+        <div class="card" id="card14" onclick="fetchInfo('Aloo Paratha')"></div>
+        <div class="card" id="card15" onclick="fetchInfo('Gulab Jamun')"></div>
+    </section>
+    <footer>
+        <div class="logo">
+            <img src="images/favicon.png" alt="">
+        </div>
+        <div class="href">
+            <ul id="ul3">
+                <li><a href="index.html">Home</a></li>
+                
+                    <li id="cat1"><a href="#vegan">Vegan</a></li>
+                    <li id="cat2"><a href="#nonvegan">Non-Vegan</a></li>
+                    <li id="cat3"><a href="#indian">Indian</a></li>
+                
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="end">
+            <h1>&copy; All Right Reserved By RecipeHub 2025.</h1>
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
