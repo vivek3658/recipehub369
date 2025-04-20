@@ -17,6 +17,11 @@ header{
     justify-content: space-evenly;
     align-items: center;
 }
+#opt1img{
+  height:100%;
+  width:auto;
+  border-radius:50%;
+}
 #logo{
     display: flex;
     align-items: center;
@@ -64,7 +69,7 @@ li:hover{
     background-color: transparent;
     border: transparent;
 }
-#catagoty #ul2{
+#catagory #ul2{
     transition: display 5s,background-color 5s,min-width 5s;
 }
 #catagory:hover #ul2{
@@ -83,9 +88,11 @@ li:hover{
     height: 700px;
     background-image: url('images/banner2.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
     align-items: center;
     text-align: center;
     padding-top: 200px;
+    width: 100%;
 }
 #bannerimage{
     border-radius: 50%;
@@ -265,7 +272,8 @@ footer{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 300px 100px;
     background-color: orange;
-    height: 400px;
+    height: 400px;  
+    top: 100%;
 }
 .logo{
     grid-column: 1/2;
@@ -418,6 +426,84 @@ html{
         padding: 0;
         margin: auto;
         
+    }
+    #ul3{
+        flex-direction: column;
+    }
+}
+@media(max-width:600px){
+  
+
+    #ul1{
+
+        display: none;
+        position: absolute;
+        padding: 0px;
+        margin: 0px;
+        margin-top: 300px;
+        height: 200px;
+        width: 100%;
+        
+    }
+    #output1{flex-direction: column;}
+    #navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #toggle{
+        display: inline;
+        padding: 10px;
+        margin-left: 90px;
+        margin-top: 10px;
+        background-color: transparent;
+        border: transparent;
+        color: white;
+        font-size: 2em;
+    }
+    
+    #data{
+        flex-direction: column;
+        min-height: 500px;
+        height: max-content;
+    }
+    .output1{
+      flex-direction: column;
+    }
+    #oimg{
+       height: 200px;
+       width:200px;
+    }
+    #img1 img{
+      height: 600px;
+      width: 390px;
+    }
+    #data #head{
+        margin-bottom: 180px;
+    }
+    #search button{
+        margin-left: 40%;
+        margin-top: 30px;
+    }
+    #part1{
+        flex-direction: column;
+        height: max-content;
+    }
+    #p1_t{
+        margin: auto;
+        padding: 0;
+    }
+    #part1 #img1 img{
+        padding: 0;
+        margin: auto;
+        
+    }
+    #opt1{
+      flex-direction: column;
+    }
+    #opt1img{
+      height: 200px;
+      width: 200px;
     }
     #ul3{
         flex-direction: column;

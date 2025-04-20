@@ -7,6 +7,7 @@ let bimg = document.getElementById("bannerimage");
 let bname = document.getElementById("banner_name");
 let brecipe = document.getElementById("banner_recipe");
 let cmt_btn = document.getElementById("cmt-btn");
+let opt1 = document.getElementById("outout1");
 let btn= document.getElementById("btn");
 let cat = document.getElementById("cat");
 let catul = document.getElementById("ul2");
@@ -78,7 +79,7 @@ function fetchData(){
    data.forEach(data => {
     if(query == data.name){
         output.innerHTML = `<h1 style="text-align:center;font-size:4em;">${data.name}</h1><br>
-        <div  id="output1" style="display:flex;"><img src="${data.image}" alt="${data.name}" style="height:500px;width:500px;border-radius:50%;"><br>
+        <div class="output1" style="display:flex;"><img  id="oimg" src="${data.image}" alt="${data.name}" style="height:100%;width:auto;border-radius:50%;"><br><hr>
         <p style="font-size:2em;margin-top:190px;margin-left:100px;">${data.recipe}</p><br></div>`
         let j=0;
 
@@ -118,7 +119,7 @@ function fetchInfo(value){
    data.forEach(data => {
     if(value == data.name){
         output.innerHTML = `<h1 style="text-align:center;font-size:4em;">${data.name}</h1><br>
-        <div style="display:flex;"><img src="${data.image}" alt="${data.name}" style="height:500px;width:500px;border-radius:50%;"><br>
+        <div id="opt1" style="display:flex;"><img id="opt1img" src="${data.image}" alt="${data.name}" ><br>
         <p style="font-size:2em;margin-top:190px;margin-left:100px;">${data.recipe}</p><br></div>`
         let j=0;
 
