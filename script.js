@@ -119,7 +119,7 @@ function fetchInfo(value){
    data.forEach(data => {
     if(value == data.name){
         output.innerHTML = `<h1 style="text-align:center;font-size:4em;">${data.name}</h1><br>
-        <div id="opt1" style="display:flex;"><img id="opt1img" src="${data.image}" alt="${data.name}" ><br>
+        <div class="output1" style="display:flex;"><img  id="oimg" src="${data.image}" alt="${data.name}" style="height:100%;width:auto;border-radius:50%;"><br><hr>
         <p style="font-size:2em;margin-top:190px;margin-left:100px;">${data.recipe}</p><br></div>`
         let j=0;
 
