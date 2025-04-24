@@ -473,6 +473,9 @@ html{
     .output1{
       flex-direction: column;
     }
+    #head{
+      min-height: fit-content;
+    }
     #oimg{
        height: 200px;
        width:200px;
